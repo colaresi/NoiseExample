@@ -91,7 +91,7 @@ baseChart = (
         alt.Tooltip(["dBA:Q"]),
         order="timing",
     )
-    .properties(title=SOURCE_FILE)
+    .properties(title=SOURCE_FILE.replace(".csv_trimmed", "") + ".html")
 )
 
 point = baseChart.mark_point().encode(
