@@ -1,0 +1,17 @@
+---  # parameters to parse and plot noise data
+headerLines: 10  # trim how many lines off raw .csv files
+noisePropertyLineThreshold: 65
+noise75FeetThreshold: 52
+backgroundNoise: 45
+yScaleDomainMin: 40
+yScaleDomainMax: 75
+yScaleAdjust75Feet: 13
+columnNames:
+        {
+                "Recorded Value (dBA)": "dBA",
+                "Response Time (seconds)": "time"
+        }
+colorScale: "lightgreyred"
+colorScaleDomainMin: 45
+colorScaleDomainMax: 65
+violationTFMark: ["triangle", "circle"]
