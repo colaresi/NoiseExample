@@ -16,8 +16,8 @@ Once the requirements are installed (see below)
 The programs can be run through your shell. 
 
 ```bash
-git clone XXXX
-cd XXXX
+git clone https://github.com/colaresi/NoiseExample 
+cd NoiseExample 
 make 
 ```
 
